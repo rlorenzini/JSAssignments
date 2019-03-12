@@ -1,0 +1,21 @@
+#newDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#fullList{
+  display: block;
+  text-align: center;
+  list-style: none;
+}
+#fullList ul{
+  display: block;
+  border-radius: 0.5em;
+  border-color: black;
+  border-style: dashed;
+  padding-bottom: 20px;
+}
+#fullList li{
+  list-style: none;
+}

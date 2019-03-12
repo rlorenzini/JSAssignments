@@ -1,0 +1,107 @@
+/* TO DO LIST styling  */
+
+
+/* changing full page  */
+body {
+  background: #fff;
+  color: #333;
+}
+/* changing all styles for lists  */
+.container {
+  display: block;
+  width: 400px;
+  margin: 100px auto 0;
+}
+/* changing lists values  */
+ul {
+  margin-left: 0;
+  padding: 0;
+}
+/* changing all list items  */
+li * {
+  float: left;
+}
+/* remove list styles from h3 and li  */
+li, h3 {
+  clear: both;
+  list-style: none;
+}
+button {
+  float: left; /* CHECK HERE IF BUTTON ACTS UP */
+  background: #0000cd;
+  color: #fff;
+  border-radius: 0px;
+  font-size: 0.9375em;
+  width: 60px;
+  margin: 10px 0 0;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1e90ff;
+}
+/* heading  */
+h3, label[for='new-task'] {
+  color: #333;
+  font-weight: 700;
+  font-size: 0.9375em;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  text-transform: uppercase;
+}
+input[type='text'] {
+  color: black;
+  margin-left: 0;
+  font-size: 1em;
+  line-height: 18px;
+  height: 18;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+}
+input[for='new-task'] {
+  display: block;
+  margin-left: 0 0 20px;
+}
+input#new-task {
+  float: left;
+  width: 318px;
+}
+/* task list  */
+li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+li > input[type='checkbox'] {
+  margin-left: 0 10px;
+  position: relative;
+  top: 15px;
+}
+li > label {
+  font-size: 1em;
+  line-height: 40px;
+  width: 237px;
+  padding: 0 0 0 11px;
+}
+li > input[type='text'] {
+  width: 226px;
+}
+li > .delete:hover {
+  color: #cf2323;
+}
+/* Completed list  */
+#completed-tasks label {
+  text-decoration: line-through;
+  color: #888;
+}
+/* Edit task option  */
+ul li input[type=text] {
+  display: none;
+}
+ul li.editMode input[type=text] {
+  display: block;
+}
+ul li.editMode label {
+  display: none;
+}

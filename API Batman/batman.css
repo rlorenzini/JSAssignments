@@ -1,0 +1,33 @@
+#movieUL {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+#movieUL p {
+  text-align: center;
+}
+#movieUL li {
+
+}
+table {
+  empty-cells: show;
+  border: 1px solid #000;
+}
+
+table td,
+table th {
+    min-width: 2em;
+    min-height: 2em;
+    border: 1px solid white;
+}
+table img {
+  height: 28.250em;
+  width: 21.250em;
+}
+#newInfo {
+  /* display: hidden; */
+
+}
