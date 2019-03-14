@@ -1,0 +1,53 @@
+#container {
+font-size: 1em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-left: 15%;
+margin-right: 20%;
+}
+#inputs{
+
+}
+#storeInput{
+border-color: gray;
+width: auto;
+}
+#addStore{
+color: blue;
+}
+#addStore:hover{
+background-color: lightgray;
+color: darkblue;
+}
+#storeLists{
+display: flex;
+justify-content: center;
+min-width: 100%;
+}
+#storesUL{
+list-style: none;
+display: flex;
+border-radius: 1px;
+border-style: solid;
+border-color: lightgray;
+flex-wrap: wrap;
+min-width: 100%;
+flex-basis: 100%;
+}
+#storesUL li{
+display: flex;
+border-width: 1px;
+border-style: solid;
+border-color: lightgray;
+float: right;
+flex-basis: 100%;
+flex-wrap: wrap;
+}
+#storesUL li button{
+  background-color: red;
+}
+#viewBtn{
+  margin-left: auto;
+}

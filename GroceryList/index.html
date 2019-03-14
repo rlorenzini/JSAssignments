@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="groceryList.css">
+<title></title>
+</head>
+<body>
+<div id="container">
+  <h1>Grocery App</h1>
+  <div id="startScreen">
+    <h3>Sign In Here</h3>
+    <input id="email" type="text" placeholder="email">
+    <input id="password" type="text" placeholder="password">
+    <button id="signInBtn" type="button" name="button">Sign In</button>
+    <button id="signUpBtn" type="button" name="button">Sign Up</button>
+  </div>
+<div id="inputs">
+  <input id="storeInput" type="text" placeholder="store name">
+  <button id="addStore" type="button" name="button">Add</button>
+</div>
+<div id="storeLists">
+  <ul id="storesUL">
+  </ul>
+</div>
+<div id="itemInputs">
+</div>
+
+
+
+
+
+</div>
+<script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCvN6uN0cWmJJSO8zKGAgOrPnQI8tDw7gI",
+    authDomain: "grocerylist-48d53.firebaseapp.com",
+    databaseURL: "https://grocerylist-48d53.firebaseio.com",
+    projectId: "grocerylist-48d53",
+    storageBucket: "grocerylist-48d53.appspot.com",
+    messagingSenderId: "299817594571"
+  };
+  firebase.initializeApp(config);
+</script>
+<!-- <script src="jquery-3.1.1.min.js"></script> -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="groceryList.js"></script>
+<script src="groceryListAuthentication.js"></script>
+</body>
+</html>
